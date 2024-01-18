@@ -56,7 +56,7 @@ const GitHubUser = () => {
             </div>
             <Modal 
             isOpen={!!selectedUser}
-            imgUrl={selectedUser.avatar_url}
+            imgUrl={selectedUser?.avatar_url}
             closeModal={handleCloseModal}
             />
             </>
